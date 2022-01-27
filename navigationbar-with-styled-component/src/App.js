@@ -1,17 +1,21 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import Navbar from './components/Navbar'; 
+// import * as S from './components/Kerm';
+
 
 function App() {
 	return (
 		<Router>
-			<Navbar></Navbar>
+			<Navbar>
+
+     </Navbar>
 			<Routes>
 				<Route path='/'></Route>
 				<Route path='/' products></Route>
 				<Route path='/' contact></Route>
 				<Route path='/' about></Route>
-			</Routes>
+			</Routes> 
 		</Router>
 	);
 }

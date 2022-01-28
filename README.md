@@ -1,3 +1,4 @@
 # Navigation-bar-with-styledcomponent
 
-    this is a practice on responsive styled component in react
+   This is a practice on responsive styled component in react
+   To Run: npm start
